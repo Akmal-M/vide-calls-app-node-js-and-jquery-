@@ -15,7 +15,7 @@
 
 .main__videos {
     flex-grow: 1;
-    background-color: black;
+    background-color: #000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +23,8 @@
 }
 
 .main__controls {
-    background-color: #1C1E20;
+    background-color: #1C1E20;;
+
 }
 
 .main__right {
@@ -53,7 +54,7 @@
 }
 
 .main__controls__button:hover {
-    background-color: #343434;
+    background-color: #67c261;
     border-radius: 5px;
 }
 
@@ -95,10 +96,10 @@
 }
 
 .leave_meeting {
-    color: #EB534B;
+    color: #f34b3e;
 }
 
 .unmute, .stop {
-    color: #CC3B33;
+    color: #e83329;
 }
 
